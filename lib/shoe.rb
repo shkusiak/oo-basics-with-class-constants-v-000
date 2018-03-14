@@ -9,7 +9,7 @@ class Shoe
 
     BRANDS << @brand
     new_BRANDS = BRANDS
-    BRANDS = new_array.uniq
+    new_array.uniq
   end
 
   def cobble
